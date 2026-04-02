@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayushmaan's Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <div class="overlay"></div>
+
+  <nav>
+    <div class="container nav-wrap">
+      <div class="logo">Ayushmaan<span>.</span></div>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a class="resume-btn" href="AyushmaanGupta_Resume.pdf" download>Download Resume</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow reveal">Game Programmer • Unreal Engine • Unity • VR</div>
+
+          <h1 class="reveal">
+            Building <span class="accent">interactive worlds</span> through gameplay, systems, and experimentation.
+          </h1>
+
+          <p class="tagline reveal">See anything good yourself.</p>
+
+          <p class="intro reveal">
+            I am Ayushmaan Gupta, a game programmer focused on creating engaging gameplay experiences with Unreal Engine,
+            Unity, C++, and C#. I enjoy learning through building, from VR projects and multiplayer systems to gameplay
+            mechanics, AI systems, and interactive prototypes.
+          </p>
+
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="https://github.com/ayushmaan30122004" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+
+          <div class="hero-meta reveal">
+            <span>India</span>
+            <span>•</span>
+            <span>Open to game development opportunities</span>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="profile-wrap">
+            <img
+              src="profile.jpg"
+              alt="Ayushmaan Gupta profile photo"
+              onerror="this.style.display='none'; this.parentNode.innerHTML='Add your profile image here';"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <p class="section-subtitle reveal">
+          I am a dedicated gaming technology student at VIT Bhopal with a strong interest in game programming, problem
+          solving, and building immersive experiences. My work includes VR-based projects, gameplay mechanics,
+          multiplayer integration, AI learning prototypes, and technical systems such as state machines and core gameplay programming.
+        </p>
+
+        <div class="grid-2">
+          <div class="card reveal">
+            <h3>What I Focus On</h3>
+            <p class="muted">
+              Gameplay systems, game AI foundations, multiplayer features, VR experiences, and building projects that
+              strengthen my programming fundamentals in Unreal Engine and Unity.
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <h3>What Drives Me</h3>
+            <p class="muted">
+              Curiosity about how games are made, the challenge of turning mechanics into polished systems, and the goal
+              of growing into a strong professional game programmer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <p class="section-subtitle reveal">
+          A growing toolkit shaped by academic projects, self-learning, and hands-on game development work.
+        </p>
+
+        <div class="grid-2">
+          <div class="card reveal">
+            <h3>Programming Languages</h3>
+            <div class="chips">
+              <span class="chip">C++</span>
+              <span class="chip">C#</span>
+              <span class="chip">Python</span>
+              <span class="chip">Java</span>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <h3>Game Engines & Frameworks</h3>
+            <div class="chips">
+              <span class="chip">Unreal Engine 5</span>
+              <span class="chip">Unity</span>
+              <span class="chip">Photon PUN2</span>
+              <span class="chip">Firebase</span>
+              <span class="chip">Google AdMob</span>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <h3>Programming Concepts</h3>
+            <div class="chips">
+              <span class="chip">State Machine</span>
+              <span class="chip">Singleton</span>
+              <span class="chip">Object Pooling</span>
+              <span class="chip">Observer</span>
+              <span class="chip">MVC</span>
+              <span class="chip">Data Structures</span>
+              <span class="chip">Algorithms</span>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <h3>Tools & Other</h3>
+            <div class="chips">
+              <span class="chip">Git</span>
+              <span class="chip">GitHub</span>
+              <span class="chip">AWS EC2</span>
+              <span class="chip">AWS</span>
+              <span class="chip">Figma</span>
+              <span class="chip">Photoshop</span>
+              <span class="chip">Premiere Pro</span>
+              <span class="chip">FL Studio 20</span>
+              <span class="chip">OpenGL</span>
+              <span class="chip">VR</span>
+              <span class="chip">AR</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title reveal">Experience</h2>
+
+        <div class="timeline">
+          <div class="card timeline-item reveal">
+            <div class="timeline-head">
+              <div>
+                <h3>C++ Developer • BBB Studio</h3>
+                <div class="timeline-meta">October 2025 – Present</div>
+              </div>
+              <div class="timeline-meta">India</div>
+            </div>
+            <ul>
+              <li>Worked on gameplay-focused development involving character, controls, and camera systems.</li>
+              <li>Contributed to Unity3D and C# based development workflows.</li>
+              <li>Integrated multiplayer systems using Photon PUN2.</li>
+              <li>Improved character selection using a customizable Ready Player Me workflow.</li>
+            </ul>
+          </div>
+
+          <div class="card timeline-item reveal">
+            <div class="timeline-head">
+              <div>
+                <h3>Core Member • Virtual Reality & Gaming Club, VITB</h3>
+                <div class="timeline-meta">September 2024 – Present</div>
+              </div>
+              <div class="timeline-meta">VIT Bhopal</div>
+            </div>
+            <ul>
+              <li>Contributed to club activities related to VR, gaming, and student-driven technical initiatives.</li>
+              <li>Collaborated with peers through immersive technology and game development focused work.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h2 class="section-title reveal">Education</h2>
+
+        <div class="timeline">
+          <div class="card timeline-item reveal">
+            <div class="timeline-head">
+              <div>
+                <h3>B.Tech in Computer Science with Specialization in Gaming Technology</h3>
+                <div class="timeline-meta">VIT Bhopal University</div>
+              </div>
+              <div class="timeline-meta">2023 – 2027</div>
+            </div>
+          </div>
+
+          <div class="card timeline-item reveal">
+            <div class="timeline-head">
+              <div>
+                <h3>12th in Science (Non-Medical)</h3>
+                <div class="timeline-meta">Sidhartha Public School</div>
+              </div>
+              <div class="timeline-meta">2021 – 2023</div>
+            </div>
+          </div>
+
+          <div class="card timeline-item reveal">
+            <div class="timeline-head">
+              <div>
+                <h3>10th Class</h3>
+                <div class="timeline-meta">St. Thomas School</div>
+              </div>
+              <div class="timeline-meta">2011 – 2021</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+        <p class="section-subtitle reveal">
+          You can replace placeholder links later with GitHub repositories, videos, screenshots, and live demos.
+        </p>
+
+        <div class="projects">
+          <div class="card project-card reveal">
+            <div class="project-thumb">Project Preview</div>
+            <div class="project-body">
+              <h3>Fluffy Smash</h3>
+              <p class="muted">A local multiplayer couch co-op pillow fight game built with Unity and C#.</p>
+              <ul>
+                <li>Implemented character movement, item pick-up, throwing, dodge mechanics, and health systems.</li>
+                <li>Used ragdoll reactions to improve hit feedback and gameplay feel.</li>
+                <li>Added AI-controlled bots for human vs AI scenarios.</li>
+              </ul>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#">Video</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card project-card reveal">
+            <div class="project-thumb">Project Preview</div>
+            <div class="project-body">
+              <h3>Obstacle Rush</h3>
+              <p class="muted">A personal Unreal Engine project focused on learning core gameplay and C++ programming fundamentals.</p>
+              <ul>
+                <li>Built obstacle-crossing gameplay mechanics in UE5.</li>
+                <li>Focused on core logic and beginner level C++ programming without relying on Blueprints.</li>
+              </ul>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#">Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card project-card reveal">
+            <div class="project-thumb">Project Preview</div>
+            <div class="project-body">
+              <h3>The Alchemist: Dreams of Dimes</h3>
+              <p class="muted">A university exhibition group project: a VR-based game built in Unity.</p>
+              <ul>
+                <li>Developed the crowd system using core state machine based AI logic.</li>
+                <li>Worked on optimization features such as occlusion culling.</li>
+              </ul>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#">Video</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card project-card reveal">
+            <div class="project-thumb">Project Preview</div>
+            <div class="project-body">
+              <h3>AI Creation</h3>
+              <p class="muted">An ongoing learning project exploring Unreal AI systems and animation workflows.</p>
+              <ul>
+                <li>Studied behaviour trees, blackboards, AI controllers, and animation syncing.</li>
+                <li>Worked on animation retargeting from Mixamo to the UE mannequin.</li>
+              </ul>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#">Progress</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title reveal">Contact</h2>
+        <p class="section-subtitle reveal">Open to internships, collaborations, and game development opportunities.</p>
+
+        <div class="grid-2">
+          <div class="card reveal">
+            <div class="contact-list">
+              <a class="contact-item" href="mailto:ayushmaan7484@gmail.com">
+                <div class="icon">✉</div>
+                <div><strong>Email</strong><br>ayushmaan7484@gmail.com</div>
+              </a>
+
+              <a class="contact-item" href="tel:+918570835359">
+                <div class="icon">☎</div>
+                <div><strong>Phone</strong><br>+91 8570835359</div>
+              </a>
+
+              <a class="contact-item" href="https://github.com/ayushmaan30122004" target="_blank" rel="noopener noreferrer">
+                <div class="icon">⌘</div>
+                <div><strong>GitHub</strong><br>github.com/ayushmaan30122004</div>
+              </a>
+
+              <a class="contact-item" href="https://www.linkedin.com/in/ayushmaan-gupta-996721289" target="_blank" rel="noopener noreferrer">
+                <div class="icon">in</div>
+                <div><strong>LinkedIn</strong><br>ayushmaan-gupta-996721289</div>
+              </a>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <h3 style="margin-bottom: 0.8rem;">Quick Note</h3>
+            <p class="muted">
+              Add your final resume PDF as <strong>AyushmaanGupta_Resume.pdf</strong> and your photo as
+              <strong>profile.jpg</strong> in the same folder as this HTML file. Later, replace the project placeholder
+              links with your actual GitHub repos, videos, and screenshots.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© 2026 Ayushmaan Gupta • Game Programmer Portfolio</div>
+  </footer>
+
+  <script src="Brain.js"></script>
+</body>
+</html>
